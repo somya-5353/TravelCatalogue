@@ -21,9 +21,9 @@ const TRAVEL_DATA = const [
   TravelModel(
     id: 't4',
     title: 'Europe',
-    img: 'assets/p7.jpg',
+    img: 'assets/p8.jpg',
   ),
-  TravelModel(id: 't5', title: 'Historical', img: 'assets/p2.jpg'),
+  TravelModel(id: 't5', title: 'Historical', img: 'assets/p9.jpg'),
   TravelModel(
     id: 't6',
     title: 'Trekking',

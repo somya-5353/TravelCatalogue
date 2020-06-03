@@ -11,7 +11,15 @@ class TravelList extends StatelessWidget {
     // TODO: implement build
     return Container(
       padding: EdgeInsets.all(20),
-      child: Text(title),
+      child: Center(
+        child: Text(title,
+            style: TextStyle(
+              fontSize: 30,
+              fontStyle: FontStyle.italic,
+              fontWeight: FontWeight.w300,
+              color: Colors.white,
+            )),
+      ),
       decoration: BoxDecoration(
         image: new DecorationImage(
           image: new AssetImage(img),
