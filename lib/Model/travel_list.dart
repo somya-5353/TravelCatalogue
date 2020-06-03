@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 class TravelList extends StatelessWidget {
   final String title;
-  final Color color;
+  final String img;
 
-  TravelList(this.title, this.color);
+  TravelList(this.title, this.img);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,10 @@ class TravelList extends StatelessWidget {
       padding: EdgeInsets.all(20),
       child: Text(title),
       decoration: BoxDecoration(
-        color: color,
+        image: new DecorationImage(
+          image: new AssetImage(img),
+          fit: BoxFit.fill,
+        ),
         borderRadius: BorderRadius.circular(20.0),
       ),
     );

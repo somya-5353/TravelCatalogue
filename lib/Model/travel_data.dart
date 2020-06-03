@@ -6,31 +6,27 @@ const TRAVEL_DATA = const [
   TravelModel(
     id: 't1',
     title: 'Beaches',
-    color: Colors.lightBlue,
+    img: 'assets/p1.jpg',
   ),
   TravelModel(
     id: 't2',
-    title: 'Safaris',
-    color: Colors.green,
+    title: 'Safari',
+    img: 'assets/p4.jpg',
   ),
   TravelModel(
     id: 't3',
     title: 'Hill Stations',
-    color: Colors.brown,
+    img: 'assets/p5.jpg',
   ),
   TravelModel(
     id: 't4',
-    title: 'Safaris',
-    color: Colors.green,
+    title: 'Europe',
+    img: 'assets/p7.jpg',
   ),
-  TravelModel(
-    id: 't5',
-    title: 'Backpacking',
-    color: Colors.red,
-  ),
+  TravelModel(id: 't5', title: 'Historical', img: 'assets/p2.jpg'),
   TravelModel(
     id: 't6',
     title: 'Trekking',
-    color: Colors.yellowAccent,
+    img: 'assets/p6.jpg',
   ),
 ];

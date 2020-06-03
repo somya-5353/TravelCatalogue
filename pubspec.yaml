@@ -40,6 +40,15 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/p1.jpg
+    - assets/p2.jpg
+    - assets/p3.jpg
+    - assets/p4.jpg
+    - assets/p5.jpg
+    - assets/p6.jpg
+    - assets/p7.jpg
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #  - images/a_dot_burr.jpeg
